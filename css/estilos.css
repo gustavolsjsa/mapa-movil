@@ -1,0 +1,175 @@
+/*-----------------------------
+1. TIPOGRAFIA
+-------------------------------*/
+html {
+  font-size: 62.5%;
+  /* Normalizar para REMS */
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.6rem;
+  color: #000000;
+}
+
+/* Principales */
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}
+
+.boton {
+  font-size: 1.8rem;
+  color: #5FA2FF;
+  background-color: #0A23C5;
+  padding: 1rem 3rem;
+  margin-top: 1.5rem;
+  border: black;
+  border-style: dotted;
+  border-radius: 3rem;
+}
+
+.bg-primary {
+  background-color: #0A23C5 !important;
+}
+
+.text-primary {
+  color: #0A23C5 !important;
+}
+
+.bg-secondary {
+  background-color: #384452 !important;
+}
+
+.text-secondary {
+  color: #384452 !important;
+}
+
+.bg-success {
+  background-color: #5FA2FF !important;
+}
+
+.text-success {
+  color: #5FA2FF !important;
+}
+
+.redes-sociales li a i {
+  color: #5FA2FF;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  opacity: .5;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.redes-sociales li a i:hover {
+  opacity: 1;
+  color: white;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+.fondo-header {
+  background-image: url(../images/principal01.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 35rem;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 30rem;
+}
+
+.swiper-slide {
+  background-position: center center;
+  background-size: cover;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #5FA2FF;
+}
+
+.swiper-button-next:after {
+  content: "\f061";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+}
+
+.swiper-button-prev:after {
+  content: "\f060";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+}
+
+.swiper-pagination-bullet-active {
+  background: #5FA2FF;
+}
+
+.slogan {
+  text-shadow: -1rem -1rem 0.7rem #384452;
+  font-size: 3rem;
+  color: #5FA2FF;
+}
+
+.navbar-nav li a {
+  font-size: 1.8rem;
+  color: #5FA2FF !important;
+  padding-right: 3rem !important;
+  opacity: .5;
+}
+
+.navbar-nav li a:hover {
+  opacity: 1;
+  font-size: 2rem;
+  color: white !important;
+}
+
+#datos-generales span {
+  font-size: 1.8rem;
+}
+
+.card-body i {
+  text-shadow: -.2rem -.4rem .1rem black;
+}
+
+.razones {
+  border: none;
+}
+
+.servicios {
+  border: none;
+}
+
+#pie a {
+  color: #5FA2FF;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  text-decoration: underline;
+}
+
+#pie a:hover {
+  opacity: 1;
+  color: white !important;
+}
+
+#mapid {
+  width: 100%;
+  height: 40rem;
+  -webkit-box-shadow: 2rem 1rem 2rem #8a8a8a;
+          box-shadow: 2rem 1rem 2rem #8a8a8a;
+}
+/*# sourceMappingURL=estilos.css.map */
